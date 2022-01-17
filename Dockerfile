@@ -5,7 +5,7 @@ RUN apt-get update -y
 RUN apt-get install -y apache2
 
 #COPY index.html /var/www/html
-COPY Workspace/website/* /var/www/html/
+COPY ./website/* /var/www/html/
 
 EXPOSE 80
 

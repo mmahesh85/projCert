@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: project2-deployment
-          image: imaheshm85/customweb:2.0
+          image: imaheshm85/customweb:2.1
           ports:
             - containerPort: 80
